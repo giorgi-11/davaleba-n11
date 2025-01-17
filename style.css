@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content:first baseline;
+    
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    list-style: none;
+    gap: 80px;
+
+    margin:45px;
+    
+    
+}
+   
+nav ul li a{
+    color: rgb(70, 11, 11);
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+nav ul li a:hover{
+    color: rgb(188, 180, 180);
+}
+ 
+.image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+p{
+    font-size: 31px;
+}
+span{
+    color: #76c279;
+}
+
+.btn{
+   padding: 12px 8px;
+   background: none;
+   cursor: pointer;
+   color: white;
+   border-color: #0b720f;
+   border-radius: 10px;
+   
+   
+}
+.btnn{
+   
+    padding: 12px 8px;
+    background: none;
+    cursor: pointer;
+    color: white;
+    border-color: #0b720f;
+    border-radius: 10px;
+    
+    margin-top: 40px;
+    background-color: #0b720f;
+}
+.btn:hover{
+    background-color: grey;
+}
+.btnn:hover{
+    background-color: #A3D9A5;
+}
+
+/*section*/
+
+.row{
+    font-size: 35px;
+    margin-top: 200;
+    margin-right: 70px;
+   
+    
+}
+
+.green{
+    background-color: #A3D9A5;
+    padding: 141px;
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+        
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+     
+    }
+    .photos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .relax{
+        flex-direction: column;
+    }
+    
+}
+.gren{
+    background-color: #455F30;
+    height: 25px;
+}
+ 
+/* main section */
+
+.row-main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.little{
+    font-size:large;
+}
+main{
+    margin-top: 80px;
+}
+.big{
+    font-size: 50px;
+    color: #426243;
+}
+.but{
+    padding: 15px;
+    padding: 12px 8px;
+    background: none;
+    cursor: pointer;
+    margin-top: 80px;
+    border-color: #8DAD78;
+    border-radius: 10px;
+    background-color: #8DAD78;
+    color: white;
+    width: 200px;
+}
+
+.but:hover{
+    background-color: grey;
+}
+
+/* new section */
+
+.services{
+    margin-top: 150px;
+   
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.did{
+    font-size: 50px;
+    margin-left: 150px;
+    color: #455F30;
+}
+.pat{
+    font-size: large;
+    margin-left: 150px;
+}
+.right{
+    margin-right: 180px;
+}
+.photos{
+    /* height: 500px; */
+    display: flex;
+    margin-top: 100px;
+    
+    justify-content: space-between;
+}
+.centri{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+.big-button{
+    padding: 15px;
+    
+    background: none;
+    cursor: pointer;
+    margin-top: 80px;
+    border-color: #8DAD78;
+    border-radius: 10px;
+    background-color: #8DAD78;
+    color: white;
+    width: 200px;
+    margin-left: 43%;
+}
+.big-button:hover{
+    background-color: #A3D9A5;
+}
+
+/* blog section */
+
+.blog{
+    margin-top: 150px;
+}
+.cnt{
+    text-align: center;
+    font-size: 50px;
+    color: #455F30;
+}
+.yvavili{
+    text-align: center;
+    margin-top: 20px;
+}
+.relax{
+    display: flex;
+    justify-content: center;
+}
+
+/* last section */
+
+.last{
+    text-align: center;
+    margin-top: 150px;
+}
+.bgg{
+    font-size: 50px;
+    color: #455F30;
+}
+.lttl{
+    font-size: larger;
+    color: rgb(108, 105, 105);
+}
+.form-box{
+    padding: 10px;
+    border-radius: 5px;
+    
+   
+}
+.form-box input{
+ font-size: 20px; 
+ border-radius: 40px;
+ padding: 10px;
+ 
+ 
+ 
+}
+.form-box label{
+    color: aliceblue;
+    background-color: #0b720f;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+
+}
+.form-box label:hover{
+    background-color: #A3D9A5;
+}
+
+/* footer section*/
+
+footer{
+    background-color: #313131;
+    color: aliceblue;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+   
+}
+
+.links ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+   
+}
+.info{
+    margin-right: 50px;
+   
+    
+    
+}
+.emoji{
+    margin-left: 50px;
+    text-align: center;
+    font-size: small;
+    
+}
+.litt{
+    font-size: larger;
+}
+.info i{
+    padding: 15px;
+    cursor: pointer;
+    font-size: small;
+    
+    
+}
+
+.info p{
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    
+}
+.info p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.info p a:hover{
+    color: gray;
+    
+}
+
+
+
+
+
+
+   
+   
+
+
+   
+   
+
+
+
+
+
+
+   
+ 
+  
+    
+   
+   
+   
+
